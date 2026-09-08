@@ -7,7 +7,6 @@ public class Main {
         int count = 0;
 
         for (int num = 1; num <= value; num++) {
-
             int sum = 0;
 
             for (int i = 1; i <= num / 2; i++) {
@@ -16,7 +15,7 @@ public class Main {
                 }
             }
 
-            if (sum == num && num != 0) {
+            if (sum == num) {
                 perfectNums[count] = num;
                 count++;
             }
