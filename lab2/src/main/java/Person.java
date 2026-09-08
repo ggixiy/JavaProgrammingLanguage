@@ -30,6 +30,7 @@ public class Person {
             return true;
         }
 
+        // тільки клас Person без врахування нащадків
         if (o == null || getClass() != o.getClass()) {
             return false;
         }

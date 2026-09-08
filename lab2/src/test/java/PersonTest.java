@@ -5,7 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PersonTest {
 
-    // рефлексивність, симетричність, транзитивність, узгодженість, обробку null та порівняння з об'єктом іншого типу
+    // рефлексивність (1 = 1), симетричність (1 = 2, то і 2 = 1), транзитивність (1 = 2 і 2 = 3 тоді 1 = 3),
+    // узгодженість (повторні дії - повторний результат), обробку null та порівняння з об'єктом іншого типу
     @Test
     void equalsVerifierTest() {
         EqualsVerifier.forClass(Person.class).usingGetClass().verify();
