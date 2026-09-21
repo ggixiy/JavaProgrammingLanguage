@@ -35,10 +35,8 @@ public class Person {
             return false;
         }
 
-        // після перевірки типу, знаємо, що точно клас Person
         Person person = (Person) o;
 
-        // через обджект, щоб уникнути налПоінтерЕксепшн
         return age == person.age
                 && Objects.equals(lastName, person.lastName)
                 && Objects.equals(firstName, person.firstName);
