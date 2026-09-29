@@ -1,26 +1,48 @@
 package Task3;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.util.Scanner;
 
 public class Task3 {
 
-    // a. шифрування
-    public static void encrypt(String src, String dst, char key) throws IOException {
-        try (InputStream in = new FileInputStream(src);
-             OutputStream out = new CryptOutputStream(
-                     new BufferedOutputStream(new FileOutputStream(dst)), key)) {
+    // шифрування
+    public static void encrypt(String file, char key) throws IOException {
+        String temp = file + ".tmp";
+
+        try (Reader in = new BufferedReader(new FileReader(file, StandardCharsets.UTF_8));
+             Writer out = new CryptWriter(
+                     new BufferedWriter(new FileWriter(temp, StandardCharsets.UTF_8)), key)) {
+
             in.transferTo(out);
         }
+
+        Files.move(
+                Path.of(temp),
+                Path.of(file),
+                StandardCopyOption.REPLACE_EXISTING
+        );
     }
 
-    // b. дешифрування
-    public static void decrypt(String src, String dst, char key) throws IOException {
-        try (InputStream in = new CryptInputStream(
-                new BufferedInputStream(new FileInputStream(src)), key);
-             OutputStream out = new FileOutputStream(dst)) {
+    // дешифрування
+    public static void decrypt(String file, char key) throws IOException {
+        String temp = file + ".tmp";
+
+        try (Reader in = new CryptReader(
+                new BufferedReader(new FileReader(file, StandardCharsets.UTF_8)), key);
+             Writer out = new BufferedWriter(new FileWriter(temp, StandardCharsets.UTF_8))) {
+
             in.transferTo(out);
         }
+
+        Files.move(
+                Path.of(temp),
+                Path.of(file),
+                StandardCopyOption.REPLACE_EXISTING
+        );
     }
 
     public static void main(String[] args) {
@@ -34,9 +56,11 @@ public class Task3 {
             }
 
             System.out.print("Вхідний файл: ");
-            String src = sc.nextLine().trim();
-            System.out.print("Вихідний файл: ");
-            String dst = sc.nextLine().trim();
+            String file = sc.nextLine().trim();
+            if (file.startsWith("\"") && file.endsWith("\"")) {
+                file = file.substring(1, file.length() - 1);
+            }
+
             System.out.print("Ключовий символ: ");
             String keyStr = sc.nextLine();
             if (keyStr.isEmpty()) {
@@ -46,10 +70,10 @@ public class Task3 {
             char key = keyStr.charAt(0);
 
             if (choice.equals("1")) {
-                encrypt(src, dst, key);
+                encrypt(file, key);
                 System.out.println("Файл зашифровано.");
             } else {
-                decrypt(src, dst, key);
+                decrypt(file, key);
                 System.out.println("Файл розшифровано.");
             }
         } catch (IOException e) {
