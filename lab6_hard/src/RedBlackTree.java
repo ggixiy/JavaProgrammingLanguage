@@ -27,7 +27,7 @@ public class RedBlackTree {
         root = NIL;
     }
 
-    // Rotations ------------------------------------
+    // Rotations
 
     private void rotateLeft(Node x) {
         Node y = x.right;
@@ -53,7 +53,7 @@ public class RedBlackTree {
         y.parent = x;
     }
 
-    // Add ----------------------------------------------------
+    // Add
 
     public boolean add(int key) {
         Node parent = NIL, cur = root;
@@ -113,7 +113,7 @@ public class RedBlackTree {
         root.color = BLACK;
     }
 
-    // Detour ---------------------------------
+    // Detour
 
     // Прямий обхід: корінь, ліве, праве
     public List<Integer> preOrder() {
@@ -143,7 +143,7 @@ public class RedBlackTree {
         inOrder(n.right, r);
     }
 
-    // Output --------------------------------------------------
+    // Output
 
     // коди кольорів для консолі
     private static final String RED_COLOR = "\u001B[31;1m";
