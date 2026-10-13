@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a901d813-ac65-4b0e-8741-248a7e3ddd0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab5/src/main/java/Task3/CryptReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/main/java/Task3/CryptReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/src/main/java/Task3/CryptWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/main/java/Task3/CryptWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/src/main/java/Task4/TagFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/main/java/Task4/TagFrequency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab6_hard/src/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_hard/src/RedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +172,7 @@
       <updated>1791143592987</updated>
       <workItem from="1791143594363" duration="358000" />
       <workItem from="1791143968984" duration="20000" />
-      <workItem from="1791144004637" duration="15960000" />
+      <workItem from="1791144004637" duration="17940000" />
     </task>
     <servers />
   </component>

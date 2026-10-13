@@ -4,6 +4,7 @@ import java.io.FilterReader;
 import java.io.IOException;
 import java.io.Reader;
 
+// дешифрування
 public class CryptReader extends FilterReader {
     private final char key;
 
@@ -20,7 +21,7 @@ public class CryptReader extends FilterReader {
 
     @Override
     public int read(char[] cbuf, int off, int len) throws IOException {
-        int n = in.read(cbuf, off, len);
+        int n = in.read(cbuf, off, len); // повертає реальну кількість прочитаних символів
         if (n == -1) return -1;
         for (int i = off; i < off + n; i++) {
             cbuf[i] = (char) (cbuf[i] - key);

@@ -30,7 +30,8 @@ public class TagFrequency {
         Map<String, Integer> frequency = new HashMap<>();
         Matcher m = Pattern.compile("<([a-zA-Z][a-zA-Z0-9]*)").matcher(html);
         while (m.find()) {
-            frequency.merge(m.group(1).toLowerCase(), 1, Integer::sum);
+            frequency.merge(m.group(1) // група захоплення в дужках
+                    .toLowerCase(), 1, Integer::sum);
         }
 
         System.out.println("\nВ лексикографічному порядку ");

@@ -28,7 +28,6 @@ public class RedBlackTree {
     }
 
     // Rotations
-
     private void rotateLeft(Node x) {
         Node y = x.right;
         x.right = y.left;
@@ -54,7 +53,6 @@ public class RedBlackTree {
     }
 
     // Add
-
     public boolean add(int key) {
         Node parent = NIL, cur = root;
         while (cur != NIL) {
@@ -114,7 +112,6 @@ public class RedBlackTree {
     }
 
     // Detour
-
     // Прямий обхід: корінь, ліве, праве
     public List<Integer> preOrder() {
         List<Integer> result = new ArrayList<>();

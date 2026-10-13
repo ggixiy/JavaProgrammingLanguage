@@ -4,6 +4,7 @@ import java.io.FilterWriter;
 import java.io.IOException;
 import java.io.Writer;
 
+// шифрування
 public class CryptWriter extends FilterWriter {
     private final char key;
 
