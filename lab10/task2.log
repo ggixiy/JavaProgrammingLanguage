@@ -1,0 +1,80 @@
+окт. 18, 2026 11:19:28 PM Task2.Main main
+INFO: Початок роботи
+окт. 18, 2026 11:19:29 PM Task2.Main main
+INFO: Користувач обрав: 1
+окт. 18, 2026 11:19:31 PM Task2.Main main
+FINE: Шлях до файлу: C:\Users\Anne\Desktop\1.txt
+окт. 18, 2026 11:19:33 PM Task2.Main main
+INFO: Початок шифрування
+окт. 18, 2026 11:19:33 PM Task2.Main encrypt
+FINE: Створення тимчасового файлу C:\Users\Anne\Desktop\1.txt.tmp
+окт. 18, 2026 11:19:33 PM Task2.Main encrypt
+FINE: Файл замінено
+окт. 18, 2026 11:19:33 PM Task2.Main main
+INFO: Кінець шифрування
+окт. 18, 2026 11:19:41 PM Task2.Main main
+INFO: Початок роботи
+окт. 18, 2026 11:19:44 PM Task2.Main main
+WARNING: Невірний вибір варіантів
+окт. 20, 2026 9:15:05 PM Task2.Main main
+INFO: Початок роботи
+окт. 20, 2026 10:01:03 PM Task2.Main main
+INFO: Початок роботи
+окт. 20, 2026 10:01:05 PM Task2.Main main
+WARNING: Невірний вибір варіантів
+окт. 20, 2026 10:01:20 PM Task2.Main main
+INFO: Початок роботи
+окт. 20, 2026 10:01:24 PM Task2.Main main
+INFO: Користувач обрав: 1
+окт. 20, 2026 10:01:57 PM Task2.Main main
+FINE: Шлях до файлу: C:\Users\Anne\Desktop\1.txt
+окт. 20, 2026 10:02:02 PM Task2.Main main
+INFO: Початок шифрування
+окт. 20, 2026 10:02:02 PM Task2.Main encrypt
+FINE: Створення тимчасового файлу C:\Users\Anne\Desktop\1.txt.tmp
+окт. 20, 2026 10:02:02 PM Task2.Main encrypt
+FINE: Файл замінено
+окт. 20, 2026 10:02:02 PM Task2.Main main
+INFO: Кінець шифрування
+окт. 20, 2026 10:02:06 PM Task2.Main main
+INFO: Початок роботи
+окт. 20, 2026 10:02:07 PM Task2.Main main
+INFO: Користувач обрав: 2
+окт. 20, 2026 10:02:09 PM Task2.Main main
+FINE: Шлях до файлу: C:\Users\Anne\Desktop\1.txt
+окт. 20, 2026 10:02:09 PM Task2.Main main
+INFO: Початок дешифрування
+окт. 20, 2026 10:02:09 PM Task2.Main decrypt
+FINE: Створення тимчасового файлу C:\Users\Anne\Desktop\1.txt.tmp
+окт. 20, 2026 10:02:09 PM Task2.Main decrypt
+FINE: Файл замінено
+окт. 20, 2026 10:02:09 PM Task2.Main main
+INFO: Кінець дешифрування
+окт. 20, 2026 10:04:50 PM Task2.Main main
+INFO: Початок роботи
+окт. 20, 2026 10:04:52 PM Task2.Main main
+INFO: Користувач обрав: 1
+окт. 20, 2026 10:05:09 PM Task2.Main main
+FINE: Шлях до файлу: C:\Users\Anne\Desktop\1.txt
+окт. 20, 2026 10:05:10 PM Task2.Main main
+INFO: Початок шифрування
+окт. 20, 2026 10:05:10 PM Task2.Main encrypt
+FINE: Створення тимчасового файлу C:\Users\Anne\Desktop\1.txt.tmp
+окт. 20, 2026 10:05:10 PM Task2.Main encrypt
+FINE: Файл замінено
+окт. 20, 2026 10:05:10 PM Task2.Main main
+INFO: Кінець шифрування
+окт. 20, 2026 10:05:12 PM Task2.Main main
+INFO: Користувач обрав: 2
+окт. 20, 2026 10:05:14 PM Task2.Main main
+FINE: Шлях до файлу: C:\Users\Anne\Desktop\1.txt
+окт. 20, 2026 10:05:15 PM Task2.Main main
+INFO: Початок дешифрування
+окт. 20, 2026 10:05:15 PM Task2.Main decrypt
+FINE: Створення тимчасового файлу C:\Users\Anne\Desktop\1.txt.tmp
+окт. 20, 2026 10:05:15 PM Task2.Main decrypt
+FINE: Файл замінено
+окт. 20, 2026 10:05:15 PM Task2.Main main
+INFO: Кінець дешифрування
+окт. 20, 2026 10:05:18 PM Task2.Main main
+INFO: Завершення роботи

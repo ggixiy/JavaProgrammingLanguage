@@ -1,0 +1,128 @@
+окт. 20, 2026 9:15:16 PM Task3.Main main
+INFO: Початок роботи
+окт. 20, 2026 9:15:22 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 1
+окт. 20, 2026 9:15:24 PM Task3.Main processFile
+FINE: Шлях до файлу: 1
+окт. 20, 2026 9:15:25 PM Task3.Main processFile
+INFO: Початок шифрування
+окт. 20, 2026 9:15:25 PM Task3.Main encrypt
+FINE: Створення тимчасового файлу 1.tmp
+окт. 20, 2026 9:15:25 PM Task3.Main processFile
+SEVERE: Помилка роботи з файлом 1
+java.io.FileNotFoundException: 1 (Не удается найти указанный файл)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:103)
+	at Task3.Main.encrypt(Main.java:54)
+	at Task3.Main.processFile(Main.java:111)
+	at Task3.Main.main(Main.java:167)
+
+окт. 20, 2026 9:15:57 PM Task3.Main main
+INFO: Початок роботи
+окт. 20, 2026 9:15:59 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 1
+окт. 20, 2026 9:16:05 PM Task3.Main main
+INFO: Початок роботи
+окт. 20, 2026 9:16:06 PM Task3.Main main
+INFO: Користувач обрав пункт меню: "C:\Users\Anne\Desktop\1.txt"
+окт. 20, 2026 9:16:06 PM Task3.Main main
+WARNING: Невірний вибір пункту меню: "C:\Users\Anne\Desktop\1.txt"
+окт. 20, 2026 9:16:25 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 1
+окт. 20, 2026 9:16:28 PM Task3.Main processFile
+FINE: Шлях до файлу: C:\Users\Anne\Desktop\1.txt
+окт. 20, 2026 9:16:31 PM Task3.Main processFile
+INFO: Початок шифрування
+окт. 20, 2026 9:16:31 PM Task3.Main encrypt
+FINE: Створення тимчасового файлу C:\Users\Anne\Desktop\1.txt.tmp
+окт. 20, 2026 9:16:31 PM Task3.Main encrypt
+FINE: Файл замінено
+окт. 20, 2026 9:16:31 PM Task3.Main processFile
+INFO: Кінець шифрування
+окт. 20, 2026 9:16:35 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 3
+окт. 20, 2026 9:16:37 PM Task3.Main chooseLanguage
+INFO: Мову інтерфейсу змінено на en
+окт. 20, 2026 9:16:41 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 1
+окт. 20, 2026 9:16:44 PM Task3.Main processFile
+FINE: Шлях до файлу: C:\Users\Anne\Desktop\1.txt
+окт. 20, 2026 9:16:45 PM Task3.Main processFile
+INFO: Початок шифрування
+окт. 20, 2026 9:16:45 PM Task3.Main encrypt
+FINE: Створення тимчасового файлу C:\Users\Anne\Desktop\1.txt.tmp
+окт. 20, 2026 9:16:45 PM Task3.Main encrypt
+FINE: Файл замінено
+окт. 20, 2026 9:16:45 PM Task3.Main processFile
+INFO: Кінець шифрування
+окт. 20, 2026 9:16:50 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 2
+окт. 20, 2026 9:16:52 PM Task3.Main processFile
+FINE: Шлях до файлу: C:\Users\Anne\Desktop\1.txt
+окт. 20, 2026 9:16:53 PM Task3.Main processFile
+INFO: Початок дешифрування
+окт. 20, 2026 9:16:53 PM Task3.Main decrypt
+FINE: Створення тимчасового файлу C:\Users\Anne\Desktop\1.txt.tmp
+окт. 20, 2026 9:16:53 PM Task3.Main decrypt
+FINE: Файл замінено
+окт. 20, 2026 9:16:53 PM Task3.Main processFile
+INFO: Кінець дешифрування
+окт. 20, 2026 9:16:57 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 2
+окт. 20, 2026 9:16:58 PM Task3.Main processFile
+FINE: Шлях до файлу: C:\Users\Anne\Desktop\1.txt
+окт. 20, 2026 9:16:59 PM Task3.Main processFile
+INFO: Початок дешифрування
+окт. 20, 2026 9:16:59 PM Task3.Main decrypt
+FINE: Створення тимчасового файлу C:\Users\Anne\Desktop\1.txt.tmp
+окт. 20, 2026 9:16:59 PM Task3.Main decrypt
+FINE: Файл замінено
+окт. 20, 2026 9:16:59 PM Task3.Main processFile
+INFO: Кінець дешифрування
+окт. 20, 2026 9:17:09 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 1
+окт. 20, 2026 9:17:10 PM Task3.Main processFile
+FINE: Шлях до файлу: 1
+окт. 20, 2026 9:17:11 PM Task3.Main processFile
+INFO: Початок шифрування
+окт. 20, 2026 9:17:11 PM Task3.Main encrypt
+FINE: Створення тимчасового файлу 1.tmp
+окт. 20, 2026 9:17:11 PM Task3.Main processFile
+SEVERE: Помилка роботи з файлом 1
+java.io.FileNotFoundException: 1 (Не удается найти указанный файл)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:103)
+	at Task3.Main.encrypt(Main.java:54)
+	at Task3.Main.processFile(Main.java:111)
+	at Task3.Main.main(Main.java:167)
+
+окт. 20, 2026 9:17:14 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 1
+окт. 20, 2026 9:17:17 PM Task3.Main processFile
+FINE: Шлях до файлу: 1
+окт. 20, 2026 9:17:18 PM Task3.Main processFile
+INFO: Початок шифрування
+окт. 20, 2026 9:17:18 PM Task3.Main encrypt
+FINE: Створення тимчасового файлу 1.tmp
+окт. 20, 2026 9:17:18 PM Task3.Main processFile
+SEVERE: Помилка роботи з файлом 1
+java.io.FileNotFoundException: 1 (Не удается найти указанный файл)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:103)
+	at Task3.Main.encrypt(Main.java:54)
+	at Task3.Main.processFile(Main.java:111)
+	at Task3.Main.main(Main.java:167)
+
+окт. 20, 2026 9:17:20 PM Task3.Main main
+INFO: Користувач обрав пункт меню: 0
+окт. 20, 2026 9:17:20 PM Task3.Main main
+INFO: Завершення роботи
