@@ -9,7 +9,6 @@ import java.util.stream.Collectors;
  */
 public class AbbrivationBuilder {
 
-
     public static String build(List<String> list) {
         StringBuilder result = new StringBuilder();
 

@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3370cc07-63a6-44ef-a92f-f7503b60dc22" name="Changes" comment="lab 2">
-      <change afterPath="$PROJECT_DIR$/../lab6_hard/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6_hard/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6_hard/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6_hard/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6_hard/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab6_hard/src/RedBlackTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_9/src/main/java/task1/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_9/src/main/java/task1/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7_hard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7_hard/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8_middle/src/forkjoin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8_middle/src/forkjoin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lambdaworkshop-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lambdaworkshop-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lambdaworkshop-master/out/production/lambdaworkshop-master/workshop/task_2_2/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lambdaworkshop-master/out/production/lambdaworkshop-master/workshop/task_2_2/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lambdaworkshop-master/out/test/lambdaworkshop-master/workshop/task_2_2/CompanyDomain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lambdaworkshop-master/out/test/lambdaworkshop-master/workshop/task_2_2/CompanyDomain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lambdaworkshop-master/src/workshop/task_1_1/AbbrivationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lambdaworkshop-master/src/workshop/task_1_1/AbbrivationBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lambdaworkshop-master/src/workshop/task_2_2/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lambdaworkshop-master/src/workshop/task_2_2/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lambdaworkshop-master/src/workshop/task_3_1/BestPriceFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lambdaworkshop-master/src/workshop/task_3_1/BestPriceFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lambdaworkshop-master/test/workshop/task_2_2/CompanyDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lambdaworkshop-master/test/workshop/task_2_2/CompanyDomain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.PersonTest.equalsVerifierTest.executor": "Run",
-    "JUnit.PersonTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.37284237",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.equalsVerifierTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37284237&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.PersonTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -125,6 +129,7 @@
       <workItem from="1789424908104" duration="646000" />
       <workItem from="1789502456249" duration="87000" />
       <workItem from="1790623154851" duration="1307000" />
+      <workItem from="1792082635125" duration="4415000" />
     </task>
     <task id="LOCAL-00001" summary="lab 2">
       <option name="closed" value="true" />

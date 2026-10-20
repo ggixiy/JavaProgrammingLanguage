@@ -3,6 +3,7 @@ package workshop.task_2_2;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
+import java.util.stream.IntStream;
 
 /**
  * Created by olenasyrota on 6/28/16.
@@ -56,5 +57,10 @@ public class Order {
                 .mapToDouble(LineItem::getValue)
                 .max()
                 .orElse(0.0);
+    }
+
+    public void addLineItems(String name, double value, int quantity) {
+        IntStream.range(0, quantity)
+                .forEach(i -> this.addLineItem(new LineItem(name, value)));
     }
 }

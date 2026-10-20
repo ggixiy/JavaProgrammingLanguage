@@ -16,6 +16,7 @@ public class BestPriceFinder {
 
     private static final Function<ProductPrice, ProductPrice> FINALPRICER = price->{price.calculateFinalPrice();return price;};
 
+    // Один потік виконання, магазини опитуються по черзі: 5 × 1 с.
     public static List<ProductPrice> findPricesSequential(List<Shop> shops, String product) {
         Function<Shop, ProductPrice> shopPricer = shop -> new ProductPrice (shop.getName(), shop.getPrice(product), 0.08, 0.05);
         return shops.stream()
@@ -25,6 +26,7 @@ public class BestPriceFinder {
                 .collect(Collectors.toList());
     }
 
+    // Потік ділиться між ядрами через спільний ForkJoinPool, 5 запитів ідуть одночасно, але тільки якщо є хоча б 5 ядер.
     public static List<ProductPrice> findPricesParallel(List<Shop> shops, String product) {
         Function<Shop, ProductPrice> shopPricer = shop -> new ProductPrice (shop.getName(), shop.getPrice(product), 0.08, 0.05);
         return shops.parallelStream()
@@ -32,6 +34,7 @@ public class BestPriceFinder {
                 .collect(Collectors.toList());
     }
 
+    // самі визначаємо скільки буде потоків, кожному дається заввдання, отримується "квитанцція" та потім зюирається результат
     public static List<ProductPrice> findPricesFuture(List<Shop> shops, String product) {
         Executor executor = Executors.newFixedThreadPool(shops.size(), new ThreadFactory() {
                     @Override
@@ -55,7 +58,7 @@ public class BestPriceFinder {
         return prices;
     }
 
-
+    // як і 3 але додатково поділена робота по обробці фінальної вартості
     public static List<ProductPrice> findPricesFutureAsync(List<Shop> shops, String product) {
         Executor executorPrice = Executors.newFixedThreadPool(shops.size(), new ThreadFactory() {
             @Override

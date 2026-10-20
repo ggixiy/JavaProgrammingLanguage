@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a901d813-ac65-4b0e-8741-248a7e3ddd0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab5/src/main/java/Task3/CryptReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/main/java/Task3/CryptReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/src/main/java/Task3/CryptWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/main/java/Task3/CryptWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/src/main/java/Task4/TagFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/main/java/Task4/TagFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_hard/src/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_hard/src/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_9/src/main/java/task1/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_9/src/main/java/task1/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7_hard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7_hard/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8_middle/src/forkjoin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8_middle/src/forkjoin/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaworkshop-master/workshop/task_2_2/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaworkshop-master/workshop/task_2_2/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lambdaworkshop-master/workshop/task_2_2/CompanyDomain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lambdaworkshop-master/workshop/task_2_2/CompanyDomain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workshop/task_1_1/AbbrivationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workshop/task_1_1/AbbrivationBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workshop/task_2_2/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workshop/task_2_2/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workshop/task_3_1/BestPriceFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workshop/task_3_1/BestPriceFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/workshop/task_2_2/CompanyDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/workshop/task_2_2/CompanyDomain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,34 +43,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AbbrivationBuilderTest.executor": "Run",
-    "JUnit.BestPriceFinderTest.executor": "Run",
-    "JUnit.DeveloperServiceTest.executor": "Run",
-    "JUnit.Exercise1SuppliersTest.countSuppliersWithMoreThanTwoItems.executor": "Run",
-    "JUnit.Exercise1SuppliersTest.executor": "Run",
-    "JUnit.Exercise1SuppliersTest.findSupplierNames.executor": "Run",
-    "JUnit.Exercise2OrdersTest.mostExpensiveItem.executor": "Run",
-    "JUnit.Exercise2OrdersTest.totalOrderValuesByCity.executor": "Run",
-    "JUnit.FactorialTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/FICE/5_sem/Java/lambdaworkshop-master",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AbbrivationBuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BestPriceFinderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeveloperServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Exercise1SuppliersTest.countSuppliersWithMoreThanTwoItems.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Exercise1SuppliersTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Exercise1SuppliersTest.findSupplierNames.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Exercise2OrdersTest.mostExpensiveItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Exercise2OrdersTest.totalOrderValuesByCity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FactorialTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/FICE/5_sem/Java/lambdaworkshop-master&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.BestPriceFinderTest">
     <configuration name="BestPriceFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambdaworkshop-master" />
@@ -173,6 +180,12 @@
       <workItem from="1791143594363" duration="358000" />
       <workItem from="1791143968984" duration="20000" />
       <workItem from="1791144004637" duration="17940000" />
+      <workItem from="1791922664235" duration="3906000" />
+      <workItem from="1791951046471" duration="5721000" />
+      <workItem from="1792080770339" duration="8000" />
+      <workItem from="1792082508182" duration="204000" />
+      <workItem from="1792089450904" duration="47000" />
+      <workItem from="1792094356896" duration="11000" />
     </task>
     <servers />
   </component>
