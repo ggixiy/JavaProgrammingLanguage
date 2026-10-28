@@ -1,4 +1,4 @@
-package Task2;
+package task2;
 
 import java.io.FilterWriter;
 import java.io.IOException;

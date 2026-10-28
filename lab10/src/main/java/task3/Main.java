@@ -1,7 +1,7 @@
-package Task3;
+package task3;
 
-import Task2.CryptReader;
-import Task2.CryptWriter;
+import task2.CryptReader;
+import task2.CryptWriter;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -78,6 +78,7 @@ public class Main {
     }
 
     private static void printMenu() {
+
         System.out.println();
         System.out.println(msg("menu.title"));
         System.out.println(msg("menu.encrypt"));

@@ -52,3 +52,5 @@ public class StringReflection {
 }
 
 //    --add-opens java.base/java.lang=ALL-UNNAMED
+//  відкриває пакет java.lang модуля java.base для глибокого рефлексивного доступу з коду
+//  в unnamed module, до якого зазвичай належать звичайні застосунки без власного іменованого модуля.

@@ -1,0 +1,4 @@
+db.url=jdbc:postgresql://localhost:5432/lab11
+db.user=postgres
+db.password=<ваш_пароль>
+db.timezone=Europe/Kyiv
