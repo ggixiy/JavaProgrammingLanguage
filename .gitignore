@@ -1,5 +1,2 @@
 ### lab11: локальні параметри підключення до БД (пароль) ###
 lab11/src/main/resources/db.properties
-
-### lab11: тимчасовий файл Word, поки REPORT.docx відкритий ###
-lab11/~$*.docx
